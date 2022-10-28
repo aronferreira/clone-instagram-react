@@ -1,4 +1,4 @@
-# CProjeto Clone do Instagram
+# Projeto Clone do Instagram
 
 Este é um projeto feito totalmente em React, com o objetivo de produzir um clone da rede social "Instagram", proposto pelo professor Gabriel Augusto do Instituto PROA.
 
