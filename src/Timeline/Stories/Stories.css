@@ -1,0 +1,48 @@
+.Stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 117px;
+    width: 468px;
+    border: #DBDBDB 1px solid;
+    border-radius: 8px;
+    position: relative;
+    top: 26px;
+    text-overflow: ellipsis;
+}
+
+.perfilEtiqueta {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 13px;
+    gap: 2px;
+    overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.teste {
+    width: 50px;
+    height: 50px;
+    scale: 110%;
+    padding: 2%;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px red solid;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    min-width: 75px;
+    height: 86px;
+    cursor: pointer;
+}
+

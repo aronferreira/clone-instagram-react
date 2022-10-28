@@ -1,0 +1,20 @@
+.Sidebar {
+    position: fixed;
+    background-color: white;
+    margin: 0;
+    width: 244px;
+    height: 100vh;
+    border-right: #DBDBDB 1px solid;
+}
+
+.sidebarDiv {
+    width: 292px;
+    height: 100vh;
+}
+
+.logoInstagram {
+    position: relative;
+    width: 108px;
+    cursor: pointer;
+    margin: 34px -2px 0px -95px;
+}

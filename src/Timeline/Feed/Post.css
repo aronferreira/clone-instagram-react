@@ -1,0 +1,176 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Post {
+    /*max-height: 800px;*/
+    width: 468px;
+    border: #DBDBDB 1px solid;
+    border-radius: 8px;
+    position: relative;
+    top: 26px;
+}
+
+.perfilPost {
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    gap: 12px;
+    width: 468px;
+}
+
+.nomePerfil {
+    align-self: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.postPerfilFoto {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 11px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.opcoes {
+    margin-right: 15px;
+}
+
+.opcoes p {
+    color: black;
+}
+
+.imgPost {
+    width: 468px;
+}
+
+.imagem {
+    width: 100%;
+}
+
+.componentesInteragir {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    max-width: 468px;
+    margin: 7px 10px;
+}
+
+.interagirPostsCircle {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.interagirPosts {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.interagirPostsEmoji {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.interagirPostsCircle:hover, .interagirPosts:hover, .interagirPostsBookmark:hover {
+    color: #8E8E8E;
+}
+
+.interagirPostsBookmark {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.curtidas {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 11px;
+}
+
+.infoPost {
+    align-self: center;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.autorPost {
+    margin: 7px 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.postDescricao {
+    font-size: 14px;
+    text-align: left;
+}
+
+.divComentarios {
+    width: fit-content;
+}
+.comentarios {
+    font-size: 14px;
+    text-align: left;
+    color: #8E8E9D;
+    margin: 7px 11px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.dataPostagem {
+    width: fit-content;
+}
+
+.tempo {
+    font-size: 10px;
+    text-align: left;
+    color: #8E8E9D;
+    margin: 7px 11px;
+    width: fit-content;
+}
+
+hr {
+    border: #f3f3f3 1px solid;
+    background-color: #f3f3f3;
+}
+
+.comentar {
+    max-width: 468px;
+    margin: 8px 6px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.adicionarComentario {
+    border: 0;
+    font-size: 14px;
+    width: 300px;
+    max-height: 20px;
+    align-self: center;
+    overflow: hidden;
+    resize: none;
+    background-color: rgb(250, 250, 250);
+}
+
+.adicionarComentario:focus {
+    outline: none;
+}
+
+.botaoPublicar {
+    font-size: 14px;
+}
